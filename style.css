@@ -1,0 +1,37 @@
+body {
+    background-color: var(--hijau) ;
+    color: var(--pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color:var(--pink);
+    color:#FFFFFF;
+    border-radius: 10px;
+    padding: 13px 15px;
+    border: none;
+}
+
+.game-menu {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-window {
+    display: none;
+    background-color: var(--cream);
+    color:#ec49ae;
+    padding: 20px
+}
+
+:root {
+    --hijau: #0B3D2E;
+    --pink: #EC49AE;
+    --cream: #FFF0F5;
+    --putih: #FFFFFF;
+    --kuning: #FFD60A;
+}
